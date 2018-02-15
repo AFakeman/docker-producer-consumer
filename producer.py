@@ -11,3 +11,4 @@ channel.basic_publish(
     routing_key='hello',
     body=data.encode()  
 )
+connection.close()
